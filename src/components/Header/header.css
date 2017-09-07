@@ -70,14 +70,14 @@ a{
 	font-size: 14px;
 	padding-right: 40px;
 }
-.main_top{
+/*.main_top{
 	width: 1200px;
 	margin: 0 auto;
 	background-color: #fdd900;
 	padding-top: 24px;
 
 }
-/*.main_top h2{
+.main_top h2{
 	font-size: 30px;
 	line-height: 60px;
 	border-left: 5px solid #000;

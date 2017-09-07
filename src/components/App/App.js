@@ -1,45 +1,22 @@
 import React ,{ Component} from 'react'
 import './app.css'
-import Footer from '../Footer/Footer.js'
 import Main from '../Main/Main.js'
-import Header from '../Header/Header.js'
+import Layout from '../Layout/Layout'
+import Cashier from '../Cashier/Cashier.js'
+import Order from '../Order/Order.js'
+import Shopping_count from '../Shopping_count/Shopping_count.js'
+import Shopping_set from '../Shopping_set/Shopping_set.js'
+
 class App extends Component{
   render(){
     return (
       <div className="app">
-        <Header />
-        <Main />
-        <Footer />
+        <Layout>
+          <Cashier />
+        </Layout>
       </div>
     )
   }
 }
 
 export default App
-
-//improt
-//导入  //{}命名导入
-
-//export
-//导出
-
-
-//import React, { Component } from 'react'
-// import './app.css'
-// import Header from '../Header/Header'
-// import Main from '../Main/Main'
-// import Footer from '../Footer/Footer'
-//
-// class App extends Component {
-//   render () {
-//     return (
-//       <div className='app'>
-//         <Header />
-//         <Main />
-//         <Footer />
-//       </div>
-//     )
-//   }
-// }
-//
-// export default App
