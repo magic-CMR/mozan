@@ -1,0 +1,233 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.banner{
+	margin: 0 auto;
+	width: 1128px;
+	padding: 28px 36px;
+	background: url('./images/lunbo_bg_03.png');
+}
+.swiper-container {
+
+}
+.swiper-wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+.swiper-slide:nth-child(2){
+  margin: 0px 28px;
+}
+/*.swiper-button-prev{
+	background:rgba(0,0,0,0.5);
+}
+.swiper-button-next{
+	background:rgba(0,0,0,0.5);
+}*/
+.main{
+	width: 1100px;
+	padding: 30px 50px 26px 50px;
+	margin: 0 auto;
+	background-color: #2b2e33;
+}
+.main_up{
+  display: flex;
+}
+.main_up_l{
+  display: flex;
+  flex-direction: column;
+}
+.main_up_l>div:first-child{
+	margin-bottom: 62px;
+  display: flex;
+}
+.main_up_l>div:first-child>img{
+	display: block;
+}
+.main_up_l>div:first-child>h3{
+	width: 395px;
+	font-size: 36px;
+	color: #fff;
+	margin-left: 30px;
+}
+.main_up_l>div:nth-child(2){
+	width: 418px;
+}
+.main_up_l>div h4{
+	font-size: 14px;
+	color: #585b60;
+	margin-bottom: 5px;
+}
+.main_up_l>div:nth-child(2){
+  display: flex;
+}
+.main_up_l>div:nth-child(2)>div:nth-child(1)>div{
+  width: 365px;
+	border-radius: 8px;
+	background-color: #707378;
+	color: #fdd900;
+	text-align: center;
+	font-size: 32px;
+}
+.main_up_l>div:nth-child(2)>div:nth-child(1)>div>div{
+  display: flex;
+  justify-content: space-around;
+  padding: 0 5px;
+}
+.main_up_l>div:nth-child(2)>div:nth-child(1)>div>div>b{
+	display: inline-block;
+}
+.main_up_l>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(2){
+  display: flex;
+}
+.main_up_l>div:nth-child(2)>div:nth-child(1)>div>div>span{
+	display:block;
+	text-align: center;
+	font-size: 12px;
+	line-height: 21px;
+}
+.main_up_l>div:nth-child(2)>div:last-child{
+	width: 151px;
+	margin-left: 10px;
+}
+.main_up_l>div:nth-child(2)>div:last-child>a{
+	border-radius: 5px;
+}
+.main_up_l p{
+	font-size: 16px;
+	color: #fff;
+	margin: 12px 0 0 0;
+	line-height: 16px;
+
+}
+.main_up_l p>a{
+	margin-left: 10px;
+}
+.main_up_r{
+	width: 418px;
+	margin-left: 50px;
+	border-left: 2px solid #fff;
+	padding-left: 50px;
+}
+.main_up_r ul{
+	margin-bottom: -30px;
+}
+.main_up_r li{
+	margin-bottom: 30px;
+  display: flex;
+}
+.main_up_r li>span{
+	display: block;
+	width: 64px;
+  height: 26px;
+	border-radius: 8px;
+	font-size: 14px;
+	line-height: 26px;
+	background-color: #fff;
+	text-align: center;
+
+}
+.main_up_r li{
+  display: flex;
+}
+.main_up_r li>div{
+	margin-left: 30px;
+	width: 323px;
+}
+.main_up_r li:nth-child(1)>div b{
+	font-size: 18px;
+	color: #fbd900;
+	font-weight: bold;
+	display: block;
+}
+.main_up_r li:nth-child(1)>div b>span{
+	font-size: 28px;
+}
+.main_up_r li:nth-child(1)>div>span{
+	display: block;
+	color: #fff;
+	font-size: 14px;
+}
+.main_up_r li a{
+	display: inline-block;
+	border: 1px solid #fff;
+	border-radius: 8px;
+	color: #fff;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	line-height: 26px;
+	text-align: center;
+}
+.main_up_r li .active{
+	border: 1px solid #fbda00;
+	color: #fbda00;
+}
+.main_up_r li:nth-child(2)>div>a{
+	width: 80px;
+
+}
+.main_up_r li:nth-child(3)>div>a{
+	width: 65px;
+}
+
+.main_up_r li:nth-child(4)>div>a{
+	width: 69px;
+	line-height: 38px;
+}
+.main_up_r li:nth-child(4)>div>span:nth-child(2){
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	width: 160px;
+}
+.main_up_r li:nth-child(4)>div>a:nth-child(3){
+}
+.main_up_r>p{
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 7px;
+}
+.main_up_r>p>span{
+	color: #fcd901;
+}
+.main_up_d{
+	padding:20px 50px;
+	border-top: 2px solid #4f4f4f;
+	border-bottom: 2px solid #4f4f4f;
+	margin-top: 21px;
+}
+.main_up_d>a{
+	display: block;
+	line-height: 84px;
+	border: 3px solid #fdd900;
+	font-size: 26px;
+	text-align: center;
+	border-radius: 8px;
+	color: #fdd900;
+}
+.main_down{
+	margin-left: -50px;
+}
+section{
+	background: url(./images/bg_19.png);
+}
